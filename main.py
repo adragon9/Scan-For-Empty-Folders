@@ -26,7 +26,7 @@ if __name__ == "__main__":
                     # print("PATH-->", root)
                     if not files and not dirnames:
                         print("EMPTY FILE-->", root)
-                        log.write("{}\n".format(root))
+                        log.write("{}\n".format(root.encode("utf-8")))
                         emptyFileCount = emptyFileCount + 1
                     totalFileCount = totalFileCount + 1
             else:
@@ -40,7 +40,7 @@ if __name__ == "__main__":
                     # print("PATH-->", root)
                     if not files and not dirnames:
                         print("EMPTY FILE-->", root)
-                        log.write("{}\n".format(root))
+                        log.write("{}\n".format(root.encode("utf-8")))
                         emptyFileCount = emptyFileCount + 1
                     totalFileCount = totalFileCount + 1
             else:
@@ -54,7 +54,7 @@ if __name__ == "__main__":
                     # print("PATH-->", root)
                     if not files and not dirnames:
                         print("EMPTY FILE-->", root)
-                        log.write("{}\n".format(root))
+                        log.write("{}\n".format(root.encode("utf-8")))
                         emptyFileCount = emptyFileCount + 1
                     totalFileCount = totalFileCount + 1
             else:
@@ -68,7 +68,7 @@ if __name__ == "__main__":
                     # print("PATH-->", root)
                     if not files and not dirnames:
                         print("EMPTY FILE-->", root)
-                        log.write("{}\n".format(root))
+                        log.write("{}\n".format(root.encode("utf-8")))
                         emptyFileCount = emptyFileCount + 1
                     totalFileCount = totalFileCount + 1
             else:
@@ -82,7 +82,7 @@ if __name__ == "__main__":
                     # print("PATH-->", root)
                     if not files and not dirnames:
                         print("EMPTY FILE-->", root)
-                        log.write("{}\n".format(root))
+                        log.write("{}\n".format(root.encode("utf-8")))
                         emptyFileCount = emptyFileCount + 1
                     totalFileCount = totalFileCount + 1
             else:
@@ -96,7 +96,7 @@ if __name__ == "__main__":
                     # print("PATH-->", root)
                     if not files and not dirnames:
                         print("EMPTY FILE-->", root)
-                        log.write("{}\n".format(root))
+                        log.write("{}\n".format(root.encode("utf-8")))
                         emptyFileCount = emptyFileCount + 1
                     totalFileCount = totalFileCount + 1
             else:
@@ -113,7 +113,7 @@ if __name__ == "__main__":
                     if i == len(ignore) - 1:
                         if not files and not dirnames:
                             print("EMPTY FILE-->", root)
-                            log.write("{}\n".format(root))
+                            log.write("{}\n".format(root.encode("utf-8")))
                             emptyFileCount = emptyFileCount + 1
 
                         if totalFileCount % 1000 == 0:
